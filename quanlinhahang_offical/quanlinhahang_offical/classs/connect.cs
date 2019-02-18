@@ -15,7 +15,8 @@ namespace quanlinhahang_offical.classs
       public SqlConnection cnt;
         public connect()
         {
-             cnt = new SqlConnection(cnn); 
+             cnt = new SqlConnection(cnn);
+          
 
         }
         public bool isConnect()
