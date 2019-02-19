@@ -37,7 +37,7 @@ namespace quanlinhahang_offical.classs
             catch (Exception)
             {
                 
-                throw;
+              
             }
             return kp;
           

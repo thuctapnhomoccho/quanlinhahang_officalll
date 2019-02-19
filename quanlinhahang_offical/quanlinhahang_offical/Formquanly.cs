@@ -227,5 +227,42 @@ namespace quanlinhahang_offical
                 }
             }
         }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabp_banan_Click(object sender, EventArgs e)
+        {
+            data_banan.RowHeadersVisible = false;
+            banan bn = new banan();
+            data_banan.DataSource = bn.showbanan();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tool_refresh_Click(object sender, EventArgs e)
+        {
+            banan bn = new banan();
+            data_banan.DataSource = bn.showbanan();
+        }
+
+        private void Formquanly_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'quanlinhahangDataSet1.Loaibanan' table. You can move, or remove it, as needed.
+            this.loaibananTableAdapter.Fill(this.quanlinhahangDataSet1.Loaibanan);
+            // TODO: This line of code loads data into the 'quanlinhahangDataSet.loai_mon_an' table. You can move, or remove it, as needed.
+            this.loai_mon_anTableAdapter.Fill(this.quanlinhahangDataSet.loai_mon_an);
+
+        }
+
+        private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

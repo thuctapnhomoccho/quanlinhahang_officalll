@@ -15,14 +15,18 @@ namespace quanlinhahang_offical.classs
         public DataTable showkhachhang()
         {
             DataTable kp = null;
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = cn.cnt;
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = @"showkhachhang";
-            SqlDataAdapter adt = new SqlDataAdapter();
-            adt.SelectCommand = cmd;
-            kp = new DataTable();
-            adt.Fill(kp);
+            if (cn.isConnect())
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = cn.cnt;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = @"showkhachhang";
+                SqlDataAdapter adt = new SqlDataAdapter();
+                adt.SelectCommand = cmd;
+                kp = new DataTable();
+                adt.Fill(kp);
+            }
+          
 
 
             return kp; 
