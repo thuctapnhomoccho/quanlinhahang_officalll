@@ -203,7 +203,7 @@ namespace quanlinhahang_offical
             khnew.name_kh = tool_txtsearch.Text;
             if (khnew.seach_khachhang(khnew).Rows.Count!=0)
             {
-                tool_txtsearch = null;
+                tool_txtsearch.Text = null;
                 MessageBox.Show("Tìm được " + khnew.seach_khachhang(khnew).Rows.Count + " khách hàng ! ");
                 data_khachhang.DataSource = null;
                 data_khachhang.DataSource = khnew.seach_khachhang(khnew);
