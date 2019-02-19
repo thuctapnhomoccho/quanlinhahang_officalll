@@ -227,5 +227,10 @@ namespace quanlinhahang_offical
                 }
             }
         }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

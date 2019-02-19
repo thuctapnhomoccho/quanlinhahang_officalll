@@ -31,3 +31,14 @@ F:\Quanlinhahang_offical\quanlinhahang_officalll\quanlinhahang_offical\quanlinha
 F:\Quanlinhahang_offical\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.csproj.CoreCompileInputs.cache
 F:\Quanlinhahang_offical\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.exe
 F:\Quanlinhahang_offical\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.pdb
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\bin\Debug\quanlinhahang_offical.exe.config
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\bin\Debug\quanlinhahang_offical.exe
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\bin\Debug\quanlinhahang_offical.pdb
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.Form1.resources
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.Formquanly.resources
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.Properties.Resources.resources
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.exe
+C:\Users\admin\Desktop\Git\quanlinhahang_officalll\quanlinhahang_offical\quanlinhahang_offical\obj\Debug\quanlinhahang_offical.pdb
