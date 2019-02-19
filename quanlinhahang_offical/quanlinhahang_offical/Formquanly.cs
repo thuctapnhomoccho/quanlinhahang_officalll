@@ -233,6 +233,7 @@ namespace quanlinhahang_offical
 
         }
 
+<<<<<<< HEAD
         private void tabp_banan_Click(object sender, EventArgs e)
         {
             data_banan.RowHeadersVisible = false;
@@ -241,10 +242,14 @@ namespace quanlinhahang_offical
         }
 
         private void label1_Click(object sender, EventArgs e)
+=======
+        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
         {
 
         }
 
+<<<<<<< HEAD
         private void tool_refresh_Click(object sender, EventArgs e)
         {
             banan bn = new banan();
@@ -261,6 +266,14 @@ namespace quanlinhahang_offical
         }
 
         private void groupBox5_Enter(object sender, EventArgs e)
+=======
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
         {
 
         }
