@@ -247,5 +247,10 @@ namespace quanlinhahang_offical
         {
 
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
