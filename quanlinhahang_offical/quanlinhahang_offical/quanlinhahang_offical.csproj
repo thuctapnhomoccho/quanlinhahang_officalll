@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classs\banan.cs" />
     <Compile Include="classs\connect.cs" />
     <Compile Include="classs\hoadon.cs" />
     <Compile Include="classs\khachhang.cs" />
@@ -64,6 +65,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanlinhahangDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlinhahangDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlinhahangDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlinhahangDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +99,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="quanlinhahangDataSet.xsc">
+      <DependentUpon>quanlinhahangDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlinhahangDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlinhahangDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlinhahangDataSet.xss">
+      <DependentUpon>quanlinhahangDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlinhahangDataSet1.xsc">
+      <DependentUpon>quanlinhahangDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="quanlinhahangDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlinhahangDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlinhahangDataSet1.xss">
+      <DependentUpon>quanlinhahangDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

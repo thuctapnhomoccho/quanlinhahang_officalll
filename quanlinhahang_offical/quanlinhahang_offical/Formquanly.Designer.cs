@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formquanly));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -65,6 +66,26 @@
             this.tool_btn_search = new System.Windows.Forms.ToolStripButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+<<<<<<< HEAD
+            this.tabp_banan = new System.Windows.Forms.TabPage();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.data_banan = new System.Windows.Forms.DataGridView();
+            this.tool_refresh = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.tool_insert = new System.Windows.Forms.ToolStripButton();
+            this.tool_update = new System.Windows.Forms.ToolStripButton();
+            this.tool_delete = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.tool_search = new System.Windows.Forms.ToolStripButton();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.sobancon = new System.Windows.Forms.Label();
+=======
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
@@ -78,10 +99,24 @@
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.rb_active = new System.Windows.Forms.RadioButton();
+            this.rb_empty = new System.Windows.Forms.RadioButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.quanlinhahangDataSet = new quanlinhahang_offical.quanlinhahangDataSet();
+            this.loaimonanBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.loai_mon_anTableAdapter = new quanlinhahang_offical.quanlinhahangDataSetTableAdapters.loai_mon_anTableAdapter();
+            this.quanlinhahangDataSet1 = new quanlinhahang_offical.quanlinhahangDataSet1();
+            this.loaibananBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.loaibananTableAdapter = new quanlinhahang_offical.quanlinhahangDataSet1TableAdapters.LoaibananTableAdapter();
+=======
             this.label12 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.txt_idmonan = new System.Windows.Forms.TextBox();
@@ -89,6 +124,7 @@
             this.txt_giamonan = new System.Windows.Forms.TextBox();
             this.txt_thanhphan = new System.Windows.Forms.TextBox();
             this.txt_loaimonan = new System.Windows.Forms.TextBox();
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -96,9 +132,21 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_khachhang)).BeginInit();
             this.toolStrip1.SuspendLayout();
+<<<<<<< HEAD
+            this.tabp_banan.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.data_banan)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlinhahangDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loaimonanBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlinhahangDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loaibananBindingSource)).BeginInit();
+=======
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.toolStrip2.SuspendLayout();
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             this.SuspendLayout();
             // 
             // tabControl1
@@ -106,7 +154,9 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabp_banan);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -119,10 +169,10 @@
             // 
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(849, 458);
+            this.tabPage1.Size = new System.Drawing.Size(849, 456);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Khách hàng ";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -145,25 +195,25 @@
             this.groupBox3.Controls.Add(this.txt_tenkhachhang);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.txt_idkhachhang);
-            this.groupBox3.Location = new System.Drawing.Point(0, 47);
+            this.groupBox3.Location = new System.Drawing.Point(0, 57);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(273, 405);
+            this.groupBox3.Size = new System.Drawing.Size(273, 395);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             // 
             // dt_ngaysinh
             // 
             this.dt_ngaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dt_ngaysinh.Location = new System.Drawing.Point(92, 145);
+            this.dt_ngaysinh.Location = new System.Drawing.Point(104, 145);
             this.dt_ngaysinh.Name = "dt_ngaysinh";
-            this.dt_ngaysinh.Size = new System.Drawing.Size(175, 20);
+            this.dt_ngaysinh.Size = new System.Drawing.Size(163, 21);
             this.dt_ngaysinh.TabIndex = 18;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 322);
+            this.button1.Location = new System.Drawing.Point(104, 322);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 23);
+            this.button1.Size = new System.Drawing.Size(163, 23);
             this.button1.TabIndex = 17;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -174,7 +224,7 @@
             this.rb_nu.AutoSize = true;
             this.rb_nu.Location = new System.Drawing.Point(200, 111);
             this.rb_nu.Name = "rb_nu";
-            this.rb_nu.Size = new System.Drawing.Size(39, 17);
+            this.rb_nu.Size = new System.Drawing.Size(41, 19);
             this.rb_nu.TabIndex = 16;
             this.rb_nu.TabStop = true;
             this.rb_nu.Text = "Nữ";
@@ -184,18 +234,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 31);
+            this.label1.Location = new System.Drawing.Point(3, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(19, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Mã khách hàng ";
+            this.label1.Text = "ID";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // rb_nam
             // 
             this.rb_nam.AutoSize = true;
-            this.rb_nam.Location = new System.Drawing.Point(92, 111);
+            this.rb_nam.Location = new System.Drawing.Point(104, 111);
             this.rb_nam.Name = "rb_nam";
-            this.rb_nam.Size = new System.Drawing.Size(47, 17);
+            this.rb_nam.Size = new System.Drawing.Size(52, 19);
             this.rb_nam.TabIndex = 15;
             this.rb_nam.TabStop = true;
             this.rb_nam.Text = "Nam";
@@ -204,18 +255,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 67);
+            this.label2.Location = new System.Drawing.Point(3, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.Size = new System.Drawing.Size(95, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tên khách hàng";
             // 
             // txt_sothe
             // 
             this.txt_sothe.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_sothe.Location = new System.Drawing.Point(92, 272);
+            this.txt_sothe.Location = new System.Drawing.Point(104, 267);
             this.txt_sothe.Name = "txt_sothe";
-            this.txt_sothe.Size = new System.Drawing.Size(175, 20);
+            this.txt_sothe.Size = new System.Drawing.Size(163, 21);
             this.txt_sothe.TabIndex = 14;
             // 
             // label3
@@ -223,16 +274,16 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(3, 111);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.Size = new System.Drawing.Size(55, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "Giới tính ";
             // 
             // txt_sđt
             // 
             this.txt_sđt.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_sđt.Location = new System.Drawing.Point(92, 226);
+            this.txt_sđt.Location = new System.Drawing.Point(104, 221);
             this.txt_sđt.Name = "txt_sđt";
-            this.txt_sđt.Size = new System.Drawing.Size(175, 20);
+            this.txt_sđt.Size = new System.Drawing.Size(163, 21);
             this.txt_sđt.TabIndex = 13;
             // 
             // label4
@@ -240,7 +291,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 151);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 13);
+            this.label4.Size = new System.Drawing.Size(64, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "Ngày sinh ";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -248,9 +299,9 @@
             // txt_diachi
             // 
             this.txt_diachi.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_diachi.Location = new System.Drawing.Point(92, 186);
+            this.txt_diachi.Location = new System.Drawing.Point(104, 181);
             this.txt_diachi.Name = "txt_diachi";
-            this.txt_diachi.Size = new System.Drawing.Size(175, 20);
+            this.txt_diachi.Size = new System.Drawing.Size(163, 21);
             this.txt_diachi.TabIndex = 12;
             // 
             // label5
@@ -258,7 +309,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(3, 193);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.Size = new System.Drawing.Size(48, 15);
             this.label5.TabIndex = 5;
             this.label5.Text = "Địa chỉ ";
             // 
@@ -267,16 +318,16 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(0, 233);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 13);
+            this.label6.Size = new System.Drawing.Size(82, 15);
             this.label6.TabIndex = 6;
             this.label6.Text = "Số điện thoại ";
             // 
             // txt_tenkhachhang
             // 
             this.txt_tenkhachhang.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_tenkhachhang.Location = new System.Drawing.Point(92, 64);
+            this.txt_tenkhachhang.Location = new System.Drawing.Point(104, 59);
             this.txt_tenkhachhang.Name = "txt_tenkhachhang";
-            this.txt_tenkhachhang.Size = new System.Drawing.Size(175, 20);
+            this.txt_tenkhachhang.Size = new System.Drawing.Size(163, 21);
             this.txt_tenkhachhang.TabIndex = 9;
             this.txt_tenkhachhang.TextChanged += new System.EventHandler(this.txt_tenkhachhang_TextChanged);
             // 
@@ -285,16 +336,16 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(3, 272);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 13);
+            this.label7.Size = new System.Drawing.Size(42, 15);
             this.label7.TabIndex = 7;
             this.label7.Text = "Số thẻ";
             // 
             // txt_idkhachhang
             // 
             this.txt_idkhachhang.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_idkhachhang.Location = new System.Drawing.Point(92, 31);
+            this.txt_idkhachhang.Location = new System.Drawing.Point(104, 23);
             this.txt_idkhachhang.Name = "txt_idkhachhang";
-            this.txt_idkhachhang.Size = new System.Drawing.Size(175, 20);
+            this.txt_idkhachhang.Size = new System.Drawing.Size(163, 21);
             this.txt_idkhachhang.TabIndex = 8;
             this.txt_idkhachhang.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -305,7 +356,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(843, 452);
+            this.groupBox1.Size = new System.Drawing.Size(843, 450);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -315,9 +366,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.data_khachhang);
-            this.groupBox2.Location = new System.Drawing.Point(276, 44);
+            this.groupBox2.Location = new System.Drawing.Point(276, 54);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(564, 411);
+            this.groupBox2.Size = new System.Drawing.Size(564, 399);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -332,7 +383,7 @@
             this.data_khachhang.Location = new System.Drawing.Point(11, 10);
             this.data_khachhang.Name = "data_khachhang";
             this.data_khachhang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.data_khachhang.Size = new System.Drawing.Size(559, 392);
+            this.data_khachhang.Size = new System.Drawing.Size(559, 380);
             this.data_khachhang.TabIndex = 0;
             this.data_khachhang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.data_khachhang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -351,7 +402,7 @@
             this.toolStripSeparator1,
             this.tool_txtsearch,
             this.tool_btn_search});
-            this.toolStrip1.Location = new System.Drawing.Point(3, 16);
+            this.toolStrip1.Location = new System.Drawing.Point(3, 17);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(837, 28);
             this.toolStrip1.TabIndex = 0;
@@ -439,6 +490,9 @@
             // 
             // tabPage2
             // 
+<<<<<<< HEAD
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+=======
             this.tabPage2.Controls.Add(this.txt_loaimonan);
             this.tabPage2.Controls.Add(this.txt_thanhphan);
             this.tabPage2.Controls.Add(this.txt_giamonan);
@@ -452,22 +506,123 @@
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(849, 458);
+            this.tabPage2.Size = new System.Drawing.Size(849, 451);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Món ăn";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(849, 458);
+            this.tabPage3.Size = new System.Drawing.Size(849, 451);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Nhân viên";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // tabp_banan
+            // 
+            this.tabp_banan.Controls.Add(this.groupBox5);
+            this.tabp_banan.Controls.Add(this.groupBox4);
+            this.tabp_banan.Controls.Add(this.toolStrip2);
+            this.tabp_banan.Location = new System.Drawing.Point(4, 24);
+            this.tabp_banan.Name = "tabp_banan";
+            this.tabp_banan.Size = new System.Drawing.Size(849, 456);
+            this.tabp_banan.TabIndex = 3;
+            this.tabp_banan.Text = "Bàn ăn";
+            this.tabp_banan.UseVisualStyleBackColor = true;
+            this.tabp_banan.Click += new System.EventHandler(this.tabp_banan_Click);
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSeparator7,
+            this.tool_refresh,
+            this.toolStripSeparator8,
+            this.tool_insert,
+            this.toolStripSeparator6,
+            this.tool_update,
+            this.toolStripSeparator9,
+            this.tool_delete,
+            this.toolStripSeparator10,
+            this.toolStripProgressBar1,
+            this.toolStripTextBox1,
+            this.tool_search});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(849, 27);
+            this.toolStrip2.TabIndex = 0;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Controls.Add(this.data_banan);
+            this.groupBox4.Location = new System.Drawing.Point(344, 28);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(505, 428);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            // 
+            // data_banan
+            // 
+            this.data_banan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.data_banan.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            this.data_banan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data_banan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.data_banan.Location = new System.Drawing.Point(3, 17);
+            this.data_banan.Name = "data_banan";
+            this.data_banan.Size = new System.Drawing.Size(499, 408);
+            this.data_banan.TabIndex = 2;
+            // 
+            // tool_refresh
+            // 
+            this.tool_refresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tool_refresh.Image = ((System.Drawing.Image)(resources.GetObject("tool_refresh.Image")));
+            this.tool_refresh.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tool_refresh.Name = "tool_refresh";
+            this.tool_refresh.Size = new System.Drawing.Size(93, 24);
+            this.tool_refresh.Text = "Refresh";
+            this.tool_refresh.Click += new System.EventHandler(this.tool_refresh_Click);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
+            // 
+            // tool_insert
+            // 
+            this.tool_insert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tool_insert.Image = ((System.Drawing.Image)(resources.GetObject("tool_insert.Image")));
+            this.tool_insert.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tool_insert.Name = "tool_insert";
+            this.tool_insert.Size = new System.Drawing.Size(76, 24);
+            this.tool_insert.Text = "Insert";
+            // 
+            // tool_update
+            // 
+            this.tool_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tool_update.Image = ((System.Drawing.Image)(resources.GetObject("tool_update.Image")));
+            this.tool_update.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tool_update.Name = "tool_update";
+            this.tool_update.Size = new System.Drawing.Size(88, 24);
+            this.tool_update.Text = "Update";
+            // 
+            // tool_delete
+            // 
+            this.tool_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tool_delete.Image = ((System.Drawing.Image)(resources.GetObject("tool_delete.Image")));
+            this.tool_delete.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tool_delete.Name = "tool_delete";
+            this.tool_delete.Size = new System.Drawing.Size(82, 24);
+            this.tool_delete.Text = "Delete";
+=======
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.toolStrip2);
@@ -524,10 +679,19 @@
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(69, 22);
             this.toolStripLabel2.Text = "Insert";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
+<<<<<<< HEAD
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 27);
+=======
             this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripLabel3
@@ -537,10 +701,67 @@
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(82, 22);
             this.toolStripLabel3.Text = "Update";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
+<<<<<<< HEAD
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 24);
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(150, 27);
+            // 
+            // tool_search
+            // 
+            this.tool_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tool_search.Image = ((System.Drawing.Image)(resources.GetObject("tool_search.Image")));
+            this.tool_search.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tool_search.Name = "tool_search";
+            this.tool_search.Size = new System.Drawing.Size(80, 24);
+            this.tool_search.Text = "Seach";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.comboBox1);
+            this.groupBox5.Controls.Add(this.rb_empty);
+            this.groupBox5.Controls.Add(this.rb_active);
+            this.groupBox5.Controls.Add(this.textBox2);
+            this.groupBox5.Controls.Add(this.textBox1);
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.label10);
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Controls.Add(this.label8);
+            this.groupBox5.Controls.Add(this.sobancon);
+            this.groupBox5.Location = new System.Drawing.Point(8, 28);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(333, 425);
+            this.groupBox5.TabIndex = 3;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
+            // 
+            // sobancon
+            // 
+            this.sobancon.AutoSize = true;
+            this.sobancon.Location = new System.Drawing.Point(99, 27);
+            this.sobancon.Name = "sobancon";
+            this.sobancon.Size = new System.Drawing.Size(88, 15);
+            this.sobancon.TabIndex = 0;
+            this.sobancon.Text = "Số bàn còn lại ";
+=======
             this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripLabel4
@@ -568,37 +789,144 @@
             this.toolStripLabel5.Name = "toolStripLabel5";
             this.toolStripLabel5.Size = new System.Drawing.Size(97, 22);
             this.toolStripLabel5.Text = "Tìm kiếm";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+<<<<<<< HEAD
+            this.label8.Location = new System.Drawing.Point(17, 116);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 15);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "ID bàn ăn ";
+=======
             this.label8.Location = new System.Drawing.Point(32, 90);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 13);
             this.label8.TabIndex = 2;
             this.label8.Text = "Mã món ăn";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+<<<<<<< HEAD
+            this.label9.Location = new System.Drawing.Point(17, 174);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 15);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Chất liệu";
+=======
             this.label9.Location = new System.Drawing.Point(32, 150);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 13);
             this.label9.TabIndex = 3;
             this.label9.Text = "Tên món ăn";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+<<<<<<< HEAD
+            this.label10.Location = new System.Drawing.Point(17, 228);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 15);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Trạng thái ";
+=======
             this.label10.Location = new System.Drawing.Point(32, 215);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(61, 13);
             this.label10.TabIndex = 4;
             this.label10.Text = "Giá món ăn";
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+<<<<<<< HEAD
+            this.label11.Location = new System.Drawing.Point(17, 277);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(78, 15);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "Tên loại bàn ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(113, 116);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(149, 21);
+            this.textBox1.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(113, 188);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(149, 21);
+            this.textBox2.TabIndex = 6;
+            // 
+            // rb_active
+            // 
+            this.rb_active.AutoSize = true;
+            this.rb_active.Location = new System.Drawing.Point(113, 228);
+            this.rb_active.Name = "rb_active";
+            this.rb_active.Size = new System.Drawing.Size(56, 19);
+            this.rb_active.TabIndex = 7;
+            this.rb_active.TabStop = true;
+            this.rb_active.Text = "Active";
+            this.rb_active.UseVisualStyleBackColor = true;
+            // 
+            // rb_empty
+            // 
+            this.rb_empty.AutoSize = true;
+            this.rb_empty.Location = new System.Drawing.Point(187, 228);
+            this.rb_empty.Name = "rb_empty";
+            this.rb_empty.Size = new System.Drawing.Size(59, 19);
+            this.rb_empty.TabIndex = 8;
+            this.rb_empty.TabStop = true;
+            this.rb_empty.Text = "Empty";
+            this.rb_empty.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DataSource = this.loaibananBindingSource;
+            this.comboBox1.DisplayMember = "soluongkhach";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(113, 277);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(56, 23);
+            this.comboBox1.TabIndex = 9;
+            this.comboBox1.ValueMember = "id_loaiban";
+            // 
+            // quanlinhahangDataSet
+            // 
+            this.quanlinhahangDataSet.DataSetName = "quanlinhahangDataSet";
+            this.quanlinhahangDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // loaimonanBindingSource
+            // 
+            this.loaimonanBindingSource.DataMember = "loai_mon_an";
+            this.loaimonanBindingSource.DataSource = this.quanlinhahangDataSet;
+            // 
+            // loai_mon_anTableAdapter
+            // 
+            this.loai_mon_anTableAdapter.ClearBeforeFill = true;
+            // 
+            // quanlinhahangDataSet1
+            // 
+            this.quanlinhahangDataSet1.DataSetName = "quanlinhahangDataSet1";
+            this.quanlinhahangDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // loaibananBindingSource
+            // 
+            this.loaibananBindingSource.DataMember = "Loaibanan";
+            this.loaibananBindingSource.DataSource = this.quanlinhahangDataSet1;
+            // 
+            // loaibananTableAdapter
+            // 
+            this.loaibananTableAdapter.ClearBeforeFill = true;
+=======
             this.label11.Location = new System.Drawing.Point(32, 288);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(65, 13);
@@ -657,6 +985,7 @@
             this.txt_loaimonan.Name = "txt_loaimonan";
             this.txt_loaimonan.Size = new System.Drawing.Size(100, 20);
             this.txt_loaimonan.TabIndex = 12;
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             // 
             // Formquanly
             // 
@@ -666,6 +995,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "Formquanly";
             this.Text = "Formquanly";
+            this.Load += new System.EventHandler(this.Formquanly_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -676,12 +1006,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.data_khachhang)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+<<<<<<< HEAD
+            this.tabp_banan.ResumeLayout(false);
+            this.tabp_banan.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.data_banan)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlinhahangDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loaimonanBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlinhahangDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loaibananBindingSource)).EndInit();
+=======
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
             this.ResumeLayout(false);
 
         }
@@ -724,6 +1069,30 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.DateTimePicker dt_ngaysinh;
         private System.Windows.Forms.TabPage tabPage3;
+<<<<<<< HEAD
+        private System.Windows.Forms.TabPage tabp_banan;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DataGridView data_banan;
+        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripButton tool_refresh;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripButton tool_insert;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton tool_update;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripButton tool_delete;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.ToolStripButton tool_search;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.RadioButton rb_empty;
+        private System.Windows.Forms.RadioButton rb_active;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+=======
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
@@ -744,9 +1113,20 @@
         private System.Windows.Forms.TextBox txt_idmonan;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label12;
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
+<<<<<<< HEAD
+        private System.Windows.Forms.Label sobancon;
+        private quanlinhahangDataSet quanlinhahangDataSet;
+        private System.Windows.Forms.BindingSource loaimonanBindingSource;
+        private quanlinhahangDataSetTableAdapters.loai_mon_anTableAdapter loai_mon_anTableAdapter;
+        private quanlinhahangDataSet1 quanlinhahangDataSet1;
+        private System.Windows.Forms.BindingSource loaibananBindingSource;
+        private quanlinhahangDataSet1TableAdapters.LoaibananTableAdapter loaibananTableAdapter;
+=======
+>>>>>>> 84042e405594941b395e1c947a335b7e69d897bc
     }
 }

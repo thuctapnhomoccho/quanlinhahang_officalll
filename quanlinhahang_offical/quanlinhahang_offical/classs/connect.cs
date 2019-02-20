@@ -11,7 +11,7 @@ namespace quanlinhahang_offical.classs
 {
     class connect
     {
-      private  string cnn = @"Data Source=DESKTOP-IVL2G42\SQLEXPRESS;Initial Catalog=quanlinhahang;Integrated Security=True";
+      private  string cnn = @"Data Source=DESKTOP-AMTNAOM\SQLEXPRESS;Initial Catalog=quanlinhahang;Integrated Security=True";
       public SqlConnection cnt;
         public connect()
         {
@@ -37,7 +37,7 @@ namespace quanlinhahang_offical.classs
             catch (Exception)
             {
                 
-                throw;
+              
             }
             return kp;
           
